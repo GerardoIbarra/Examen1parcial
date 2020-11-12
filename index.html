@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Html con js Actividad Extra</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center>
+    <!--<p id="Alert" >Examen</p>-->
+    <header>
+        <div class="notification is-primary">
+            <div class="container px-0">
+            <img id="imgbanner" src="./images/banner5a.jpg">
+    </header>
+    <section class="container">
+        <div class="row">
+            <header >
+                <!-- menu -->
+                <nav class="navbar has-background-light" role="navigation" aria-label="main navigation">
+                  <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <button class="button is-link">
+                      <a class="navbar-item" onclick="datos();">
+                        Datos Generales 
+                      </a>
+                    </button>
+
+                      <button class="button is-white">
+                      <a class="navbar-item" onclick="proceso();">
+                        Proceso
+                      </a>
+                    </button>
+                      <button class="button is-success">
+                      <a class="navbar-item" onclick="relleno();">
+                        Relleno
+                      </a>
+                    </button>
+                    </div>
+                  </div>
+            </div>
+            </nav>
+            </header>
+        </div>
+    </section>
+</div>
+</div>
+</div>
+</center>
+<div id="iddatos">
+    <h4><strong> Seccion de datos personales </strong></h4>
+    <img id="imghombre" src="./images/bitmojih.png" onclick="imagen();">
+    <p id="p1" style="display:none">Luis GErardo Ibarra Sustayd</p>
+    <p id="p2" style="display:none">Estudiante</p>
+    <p id="p3" style="display:none">Guadalajara,jal.</p>
+    <p id="p4" style="display:none"><strong>Carrera:</strong> Facultad de telematica</p>
+    <p id="p5" style="display:none"><strong>Instituto:</strong> de colima</p>
+</div>
+<div id="idprocesos">
+    <h4><strong> Seccion de procesos </strong></h4>
+    <button id="alert">Catalogo de la fruteria</button>
+    <div id="salidaFrutas">
+
+    </div>
+ 
+</div>
+<div id="idrelleno">
+    <img id="imghombre" src="./images/lugares-donde-se-filmo-narnia.jpg" onclick="idrelleno();">
+    <h4><strong> Seccion publicitaria </strong></h4>
+   <p id="p6" style="display: none">Un puente natural de roca en República Checa conocido como Pravcicka Brana, en la región de Suiza Bohemia.</p>
+</div>
+   
+    
+    <br>
+    <script  src="index.js"></script>
+    <hr />
+    <div class="footer">
+    <footer class="content has-text-centered" >
+	© Desarrollado por Luis Ibarra
+</footer>   
+</div> 
+
+</body>
+
+</html>
